@@ -55,20 +55,32 @@ bei Namensgleichheit.
 | Benutzer (`<home>/skills`) | 400 | Benutzerverzeichnis |
 | Bündel (mitgeliefert) | 600 | im Kern |
 
-**Der ehrliche Stand:** Die Wurzel ist **angelegt, aber nicht wirksam**. `skill-plugin` steht
-laut `docs/status/skill-uebertragung.md` §5 **nicht** in `scripts/profile-patch.mjs`
-(`EIGENE_PAKETE`); damit meldet heute kein eigener Anbieter Wurzeln an `ctx.skills` an. Die
-Skills dieser Sitzung kommen über den Anbieter des Kerns.
+**Der Stand ist gemessen, nicht behauptet:** `diagram-design` ist **geladen** — der Katalog der
+Sitzung führt ihn, und das `skill`-Werkzeug liefert seinen Rumpf samt Ressourcenpfad. Der Weg
+ist eine **Junction** im Benutzer-Scope (Rang 400), keine Kopie:
 
-**Was zum Wirksamwerden fehlt — und gemessen werden muss, bevor die Zeile gesetzt wird:**
+```
+~\.agents\skills\diagram-design   →   units\skills\diagram-design
+```
 
-1. `skill-plugin` in `EIGENE_PAKETE` eintragen.
-2. Messen, ob der Kern den Anbieter annimmt (`registerProvider` mit seiner Steuerung).
-3. Messen, ob `diagram-design` im Katalog der Web-Oberfläche erscheint.
-4. Messen, ob eine geänderte Datei ohne Neustart sichtbar wird.
+Der Kern-Anbieter liest den Benutzer-Scope ohnehin; die Registry hat den Katalog **ohne
+Neustart** neu gelesen.
 
-Ohne diese vier Sätze bleibt die Zeile weg — das ist die Abnahme aus
-`skill-uebertragung.md` §6, keine Empfehlung.
+**Die vierte Wurzel (Rang 300) bleibt offen.** Sie braucht `skill-plugin` in
+`scripts/profile-patch.mjs` (`EIGENE_PAKETE`), und dieses Einhängen ist bisher **ungemessen**
+(siehe `docs/status/skill-uebertragung.md` §6). Sie ist damit Architektur, nicht Voraussetzung.
+
+## Auf einem neuen Rechner: die Junction wiederherstellen
+
+Die Junction liegt außerhalb des Repos und ist deshalb **nicht versioniert**. Ohne sie ist ein
+Skill vorhanden, aber nicht geladen. Ein Befehl genügt:
+
+```powershell
+.\link-skills.ps1
+```
+
+Das Skript legt für jeden Ordner mit `SKILL.md` eine Junction im Benutzer-Scope an, überspringt
+vorhandene und sagt, was es getan hat. Es **kopiert nichts** — der Inhalt bleibt an einem Ort.
 
 ## Lizenz und Herkunft
 
