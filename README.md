@@ -27,15 +27,66 @@ units/skills/
 
 ## Bestand
 
-| Fähigkeit | Herkunft | Lizenz | Umfang | Läuft |
-|---|---|---|---|---|
-| `diagram-design` | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | MIT | 287 Dateien, 5,13 MB | Python 3 für Export und Selbsttest |
-| `literature-review` | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | MIT | 12 Dateien, 5 Skripte | Netz (PubMed, arXiv, Semantic Scholar) |
-| `paper-lookup` | ebd. | MIT | 24 Dateien, 5 Skripte | Netz, 18 APIs, keine Schlüssel |
-| `citation-management` | ebd. | MIT | 22 Dateien, 8 Skripte | Netz (OpenAlex, PubMed, Scholar) |
-| `peer-review` | ebd. | MIT | 24 Dateien, 8 Skripte | keine externe Abhängigkeit |
-| `market-research-reports` | ebd. | MIT | 26 Dateien, 8 Skripte | keine externe Abhängigkeit |
-| `parallel-web` | ebd. | MIT | 8 Dateien, 0 Skripte | **braucht die Parallel-CLI** — fehlt heute im PATH |
+**21 Fähigkeiten**, aus fünf Quellen. Die Zahl steht nicht für Qualität — sie steht für Rollen,
+die vorher leer waren.
+
+### Recherche und Wissenschaft (11)
+
+| Fähigkeit | Herkunft | Lizenz | Läuft |
+|---|---|---|---|
+| `deep-research` | Imbad0202/academic-research-skills | **CC BY-NC 4.0** | Netz |
+| `academic-paper` | ebd. | **CC BY-NC 4.0** | Pandoc/LaTeX für Export |
+| `academic-paper-reviewer` | ebd. | **CC BY-NC 4.0** | keine |
+| `academic-pipeline` | ebd. | **CC BY-NC 4.0** | koordiniert die drei oben |
+| `sr-screener` | ebd. | **CC BY-NC 4.0** | keine |
+| `literature-review` | K-Dense-AI/scientific-agent-skills | MIT | Netz (PubMed, arXiv, Semantic Scholar) |
+| `paper-lookup` | ebd. | MIT | Netz, 18 APIs, keine Schlüssel |
+| `citation-management` | ebd. | MIT | Netz (OpenAlex, PubMed, Scholar) |
+| `peer-review` | ebd. | MIT | keine |
+| `market-research-reports` | ebd. | MIT | keine |
+| `parallel-web` | ebd. | MIT | **Parallel-CLI 0.9.3**, installiert |
+
+### Werkzeuge und Plattformen (1)
+
+| Fähigkeit | Herkunft | Lizenz | Läuft |
+|---|---|---|---|
+| `agent-reach` | Panniantong/agent-reach | MIT | **CLI installiert**; Kanäle noch nicht (`agent-reach doctor` → „No channels installed") |
+
+### Qualität und Entscheidungen (3)
+
+| Fähigkeit | Herkunft | Lizenz | Rolle |
+|---|---|---|---|
+| `architecture-decision-records` | affaan-m/ecc | MIT | Entscheidung mit Kontext, Alternativen, Folgen — die ADR-Rolle |
+| `eval-harness` | ebd. | MIT | Evals vor dem Code, pass@k und pass^k — die Lücke **L6** |
+| `agent-eval` | ebd. | MIT | Vergleich von Agenten auf eigenen Aufgaben |
+
+### Sicherheit (5)
+
+| Fähigkeit | Herkunft | Lizenz | Richtung |
+|---|---|---|---|
+| `analyzing-sbom-for-supply-chain-vulnerabilities` | mukul975/…-CyberSecurity-Skills | Apache-2.0 | defensiv: SBOM gegen NVD |
+| `building-detection-rules-with-sigma` | ebd. | Apache-2.0 | defensiv: portable Detection-Regeln |
+| `analyzing-supply-chain-malware-artifacts` | ebd. | Apache-2.0 | defensiv: Lieferketten-Vorfälle |
+| `offensive-api-security` | SnailSploit/claude-red | MIT | offensiv: OWASP API Top 10 |
+| `offensive-ai-security` | ebd. | MIT | offensiv: Prompt-Injection, Modellangriffe |
+
+**Vorbehalt zu den zwei offensiven Skills:** Sie sind Dual-Use. Aufgenommen, weil `security-audit`
+nur *Anleitung* ist und die Prüfung einer eigenen API eine Methode braucht — nicht als Werkzeug
+gegen fremde Systeme. Wer sie einsetzt, prüft Auftrag und Ziel selbst.
+
+### Gestaltung (1)
+
+| Fähigkeit | Herkunft | Lizenz | Umfang |
+|---|---|---|---|
+| `diagram-design` | cathrynlavery/diagram-design | MIT | 287 Dateien, 45 Diagrammtypen, Python für Export und Selbsttest |
+
+### Dazu: Vorlagen, keine Fähigkeit
+
+`units/design-md/` — **84 `DESIGN.md`-Dateien** aus `VoltAgent/awesome-design-md` (MIT), plus
+Index. Sie sind **kein Skill** (keine `SKILL.md`-Struktur), sondern Nachschlagewerk für
+Marken- und Oberflächenentscheidungen. Wer sie nutzt, liest sie; der Katalog führt sie nicht.
+
+---
 
 **Was die Research-Skills können:** `literature-review` führt systematische, scoping- und
 narrative Literaturreviews über PubMed, arXiv, bioRxiv und Semantic Scholar mit dokumentierter
@@ -43,7 +94,7 @@ Suchabdeckung; `paper-lookup` durchsucht 18 wissenschaftliche APIs und liefert r
 Provenienz; `citation-management` prüft Zitate gegen OpenAlex/PubMed und erzeugt BibTeX;
 `peer-review` erstellt evidenzgebundene Gutachten; `market-research-reports` baut
 nachvollziehbare Marktforschung mit TAM/SAM/SOM; `parallel-web` deckt Websuche und
-Tiefenrecherche ab — **sobald die CLI installiert ist**.
+Tiefenrecherche ab; `deep-research` ist die 13-Agenten-Pipeline mit acht Modi.
 
 **Was `diagram-design` kann:** 45 Diagrammtypen als in sich geschlossene HTML-Datei mit
 Inline-SVG (Architektur, Sequenz, ER, Zustand, Swimlane, Quadrant, Wardley, Sankey, Gantt,
@@ -51,9 +102,10 @@ Explosionsaxonometrie …), dazu Import und Neuzeichnen aus draw.io, Mermaid und
 Fidelity-Ledger. Kein Mermaid im Output, 4px-Raster. Python nur für Export (PNG) und
 Selbstprüfung.
 
-**Bewusst nicht übernommen:** `academic-research-skills` (CC BY-NC 4.0 — schließt kommerzielle
-Nutzung aus; die fünf Skills sind zudem **Symlinks**, die ein Windows-Klon nicht als Ordner
-sieht). Wer sie will, entscheidet die Lizenz zuerst.
+**Lizenzhinweis, der bleiben muss:** Die fünf `academic-*`-Skills stehen unter **CC BY-NC 4.0**
+— Namensnennung, **keine kommerzielle Nutzung**. Die `LICENSE-CC-BY-NC-4.0.md` liegt daneben.
+Wer PMH kommerziell betreibt, muss diese fünf entfernen oder lizenzieren. Alle übrigen sind
+MIT oder Apache-2.0.
 
 **Warum es hier liegt:** Es schließt die Lücke **L4** aus
 [`docs/bestand/checkup-skills-plugins.md`](../../docs/bestand/checkup-skills-plugins.md) — PMH
