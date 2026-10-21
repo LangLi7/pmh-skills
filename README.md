@@ -27,15 +27,33 @@ units/skills/
 
 ## Bestand
 
-| Fähigkeit | Herkunft | Lizenz | Stand | Umfang |
+| Fähigkeit | Herkunft | Lizenz | Umfang | Läuft |
 |---|---|---|---|---|
-| `diagram-design` | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | MIT | v2.6, geklont 21.10.2026 | 287 Dateien, 5,13 MB |
+| `diagram-design` | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | MIT | 287 Dateien, 5,13 MB | Python 3 für Export und Selbsttest |
+| `literature-review` | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | MIT | 12 Dateien, 5 Skripte | Netz (PubMed, arXiv, Semantic Scholar) |
+| `paper-lookup` | ebd. | MIT | 24 Dateien, 5 Skripte | Netz, 18 APIs, keine Schlüssel |
+| `citation-management` | ebd. | MIT | 22 Dateien, 8 Skripte | Netz (OpenAlex, PubMed, Scholar) |
+| `peer-review` | ebd. | MIT | 24 Dateien, 8 Skripte | keine externe Abhängigkeit |
+| `market-research-reports` | ebd. | MIT | 26 Dateien, 8 Skripte | keine externe Abhängigkeit |
+| `parallel-web` | ebd. | MIT | 8 Dateien, 0 Skripte | **braucht die Parallel-CLI** — fehlt heute im PATH |
+
+**Was die Research-Skills können:** `literature-review` führt systematische, scoping- und
+narrative Literaturreviews über PubMed, arXiv, bioRxiv und Semantic Scholar mit dokumentierter
+Suchabdeckung; `paper-lookup` durchsucht 18 wissenschaftliche APIs und liefert reproduzierbare
+Provenienz; `citation-management` prüft Zitate gegen OpenAlex/PubMed und erzeugt BibTeX;
+`peer-review` erstellt evidenzgebundene Gutachten; `market-research-reports` baut
+nachvollziehbare Marktforschung mit TAM/SAM/SOM; `parallel-web` deckt Websuche und
+Tiefenrecherche ab — **sobald die CLI installiert ist**.
 
 **Was `diagram-design` kann:** 45 Diagrammtypen als in sich geschlossene HTML-Datei mit
 Inline-SVG (Architektur, Sequenz, ER, Zustand, Swimlane, Quadrant, Wardley, Sankey, Gantt,
 Explosionsaxonometrie …), dazu Import und Neuzeichnen aus draw.io, Mermaid und Excalidraw mit
 Fidelity-Ledger. Kein Mermaid im Output, 4px-Raster. Python nur für Export (PNG) und
 Selbstprüfung.
+
+**Bewusst nicht übernommen:** `academic-research-skills` (CC BY-NC 4.0 — schließt kommerzielle
+Nutzung aus; die fünf Skills sind zudem **Symlinks**, die ein Windows-Klon nicht als Ordner
+sieht). Wer sie will, entscheidet die Lizenz zuerst.
 
 **Warum es hier liegt:** Es schließt die Lücke **L4** aus
 [`docs/bestand/checkup-skills-plugins.md`](../../docs/bestand/checkup-skills-plugins.md) — PMH
