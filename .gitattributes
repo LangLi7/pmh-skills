@@ -1,0 +1,5 @@
+# Skill-Inhalte bleiben zeilentreu: der Upstream nutzt LF, und ein Checkout soll
+# den Inhalt nicht gegen den Quellstand veraendern. Ohne diese Zeile schreibt
+# Git unter Windows CRLF in den Arbeitsbaum -- die Dateien waeren dann nicht mehr
+# byte-gleich zum uebernommenen Stand.
+* text=auto eol=lf
