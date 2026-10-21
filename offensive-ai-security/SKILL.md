@@ -1,3 +1,8 @@
+---
+name: offensive-ai-security
+description: AI and LLM security testing methodology — prompt injection, system-prompt leakage, insecure output handling, training-data poisoning, model denial of service, excessive agency, and RAG/agent attack surfaces (OWASP LLM Top 10). Use when assessing the security of an AI feature, agent or RAG pipeline you own or are authorized to test.
+license: MIT
+---
 # SKILL: AI Pentest
 
 ## Metadata
