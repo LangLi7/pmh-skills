@@ -27,8 +27,12 @@ units/skills/
 
 ## Bestand
 
-**21 Fähigkeiten**, aus fünf Quellen. Die Zahl steht nicht für Qualität — sie steht für Rollen,
-die vorher leer waren.
+**307 Fähigkeiten** (gezählt am 27.10.2026, davon 61 aus `pstack`, 9 aus `ui-skills`, 6 aus
+`ui-motion-picks`, 2 aus `brag` und 1 aus `prompt-engineering-skill`), aus zwölf Quellen. Die
+Zahl steht nicht für Qualität — sie steht für Rollen, die vorher leer waren.
+
+Die erste Tabelle beschreibt den Ursprungsbestand (21 Fähigkeiten); die später ergänzten
+Sammlungen stehen darunter.
 
 ### Recherche und Wissenschaft (11)
 
@@ -80,7 +84,151 @@ gegen fremde Systeme. Wer sie einsetzt, prüft Auftrag und Ziel selbst.
 |---|---|---|---|
 | `diagram-design` | cathrynlavery/diagram-design | MIT | 287 Dateien, 45 Diagrammtypen, Python für Export und Selbsttest |
 
-### Dazu: Vorlagen, keine Fähigkeit
+### Spieleentwicklung (76 + Router)
+
+| Sammlung | Herkunft | Lizenz | Umfang |
+|---|---|---|---|
+| `awesome-gamedev-agent-skills/` | gamedev-skills/awesome-gamedev-agent-skills | **Apache-2.0** | 76 Fähigkeiten + Router, 12 Engines |
+
+Ein Baum, keine 76 Einzelordner: der Router nennt repo-relative Pfade (`skills/godot/…`), ein
+flaches Ausrollen würde sie brechen. Geladen werden die Skills trotzdem einzeln — jede Fähigkeit
+liegt als eigene Junction im Benutzer-Scope:
+
+```
+~\.agents\skills\godot-2d-movement  →  ...\awesome-gamedev-agent-skills\skills\godot\godot-2d-movement
+~\.agents\skills\router             →  ...\awesome-gamedev-agent-skills\router
+```
+
+| Gruppe | Anzahl | Inhalt |
+|---|---|---|
+| Engine-Skills | 48 | Godot 16, Unity 8, Unreal 6, Web-Engines 6, andere Engines 11, Ebitengine 1 |
+| Disziplinen | 15 | Asset-Produktion, Game-AI, Prozedurales, Dialog, Speichern, Audio, Shader, Physik, Level, Input, Game-Feel, UI/UX, Kamera, Performance |
+| Genres | 9 | Platformer, Roguelike, RPG, FPS, Tower Defense, Kartenspiel, Visual Novel, Survival, Puzzle |
+| Workflows | 4 | Game Jam, schneller Prototyp, Steam, itch.io |
+
+Herkunft, Commit-Hash, Umfang und der Weg zum Aktualisieren stehen in
+[`awesome-gamedev-agent-skills/VENDOR.md`](awesome-gamedev-agent-skills/VENDOR.md).
+
+### Design-Engineering (9)
+
+| Sammlung | Herkunft | Lizenz | Umfang |
+|---|---|---|---|
+| `ui-skills/` | ibelick/ui-skills | MIT | 9 Fähigkeiten: Motion-Performance, UI-Audit, DESIGN.md, Accessibility, Metadaten |
+
+`ui-skills.com` ist **ein Katalog über fremde Fähigkeiten**, kein Skill-Repo: 437 Einträge,
+davon 107 mit dem Thema `motion`. Im Repository liegen nur diese neun als Dateien vor; der Rest
+verweist per `rawUrl` auf andere Projekte (greensock, emilkowalski, remotion-dev, iart-ai und
+weitere). Übernommen sind deshalb die neun — die Motion-Seite wurde vollständig durchgesehen,
+aber nicht als Sammlung eingehängt: 23 der 107 Namen liegen bereits als Fähigkeit vor, viele
+weitere sind inhaltliche Dubletten (etwa `greensock/gsap-core` neben `gsap-web`).
+
+**Nebenbefund, gemessen:** Der Katalog, den das Modell im Prompt sieht, hat eine Obergrenze.
+Während dieser Sitzung sind Fähigkeiten daraus verschwunden, als ein anderer Prozess 56
+Motion-Fähigkeiten einhängte. Ein pauschales Einhängen aller 107 würde also andere Fähigkeiten
+verdrängen, ohne eine neue hinzuzugewinnen.
+
+Herkunft, Commit und Aktualisierungsweg stehen in [`ui-skills/VENDOR.md`](ui-skills/VENDOR.md).
+
+### Launchvideo (2)
+
+| Sammlung | Herkunft | Lizenz | Umfang |
+|---|---|---|---|
+| `brag/` | latent-spaces/brag | MIT, Medien darunter CC BY 4.0 / CC0 | 2 Fähigkeiten, 13 MB mitgelieferte Musik |
+
+`brag` macht aus dem aktuellen Projekt ein kurzes Launch-Video — Story, Motion, Musik und
+Share-Copy — und rendert es über Hyperframes. `brag-slim` ist die Einzeldatei-Fassung ohne
+Hyperframes und ohne mitgelieferte Assets; derselbe Einstieg, anderer Weg.
+
+Die beiden Fähigkeiten sind jetzt geladen (`brag`, `brag-slim`). Die Laufzeit ist geprüft:
+`npx hyperframes doctor` meldet Version 0.8.207, Node 24, FFmpeg, Chrome und Docker in Ordnung.
+Zwei echte Lücken bleiben: der Rechner hatte beim Test **1,6 GB freien Arbeitsspeicher** (der
+Doctor warnt vor fehlschlagenden Renders), und **Kokoro fehlt** — `--voice` braucht
+`pip install kokoro-onnx soundfile`.
+
+Herkunft, Lizenzen der Musik (Namensnennung nötig) und der Aktualisierungsweg stehen in
+[`brag/VENDOR.md`](brag/VENDOR.md); die Prüftabelle der Voraussetzungen steht dort ebenfalls.
+
+### Prompt-Engineering (1)
+
+| Fähigkeit | Herkunft | Lizenz | Rolle |
+|---|---|---|---|
+| `prompt-engineering` | PhAlves23/prompt-engineering-skill | MIT | schreibt Prompts um statt sie auszuführen: Diagnose, kanonische Struktur, Technikwahl, Änderungsprotokoll |
+
+Der Skill war für Claude Code gebaut und ist für den Harness angepasst: Zielmodell ist die
+Sitzungsroute statt Claude 4.x, die Werkzeuge heißen `read`, `subagent`, `ask_user_question`
+statt `Read`, `Task`, `AskUserQuestion`, und ein eigener Abschnitt beschreibt die Nutzung für
+die Crew. Die Anpassung ist klein und lückenlos dokumentiert —
+[`prompt-engineering-skill/VENDOR.md`](prompt-engineering-skill/VENDOR.md) führt jede geänderte
+Datei und jede bewusst nicht übernommene.
+
+Gedacht für den `planner` und die Rollen-Prompts der Crew: die Texte, die andere Agenten
+ausführen, sind Prompts und werden von diesem Skill schärfer. Die Crew-Skills selbst bleiben
+unangetastet — sie gehören dem Paket `@deepseek-ai/dsh-llm-crew`, nicht diesem Bestand.
+
+### Motion-Nachlese (6)
+
+| Fähigkeit | Herkunft | Lizenz | Rolle |
+|---|---|---|---|
+| `animate` | emilkowalski/skills | MIT | Animation von Null bauen, Entscheidungen in der richtigen Reihenfolge |
+| `review-animations` | ebd. | MIT | vorhandene Motion gegen eine hohe Latte prüfen; **nur menschlich aufrufbar** |
+| `improve-animations` | ebd. | MIT | Codebase-Audit mit priorisierten Umsetzungsplänen, liest nur |
+| `find-animation-opportunities` | ebd. | MIT | Stellen finden, die animieren sollten — und den Rest verwerfen |
+| `transitions-dev` | Jakubantalik/transitions-dev | MIT | zwölf fertige CSS-Übergänge mit Vorlagen |
+| `userinterface-wiki` | raphaelsalaja/userinterface-wiki | MIT | 152 Regeln in 12 Kategorien, Befunde mit `file:line` |
+
+Diese sechs schließen die Lücke, die der `motion`-Katalog von `ui-skills.com` offen ließ (107
+fremde Einträge, 23 davon schon vorhanden). Ausgewählt wurden die, die inhaltlich wirklich
+fehlten.
+
+**Eine Lizenz-Ausweichung, die benannt bleiben muss:** Der Katalog nennt für
+`12-principles-of-animation` und `to-spring-or-not-to-spring` das Repository
+`raphaelsalaja/skill` — **ohne Lizenz**. Ohne Lizenz gilt Standardurheberrecht; diese beiden
+Dateien sind deshalb nicht übernommen. Statt ihrer steht die offizielle, MIT-lizenzierte
+Fassung desselben Autors im Bestand: `userinterface-wiki`, die Federn, Easing und Dauer
+abdeckt.
+
+Herkunft, Commits und die Begründung stehen in
+[`ui-motion-picks/VENDOR.md`](ui-motion-picks/VENDOR.md).
+
+### Motion Design und Animation (56)
+
+| Sammlung | Herkunft | Lizenz | Umfang |
+|---|---|---|---|
+| `motion-design` | LottieFiles/motion-design-skill | MIT | Motion-Grundlagen: Timing, Easing, Choreografie, Disney-Prinzipien für UI |
+| `iart-motion-skills/` | iart-ai/motion-skills (19 Pack-Repos) | MIT | 55 Fähigkeiten: Web-Animation, WebGL, Manim, Remotion, Video-Packs |
+
+`motion-design` ist ein einzelner, in sich geschlossener Skill (`director/`, `patterns/`,
+`reference/` als Unterordner) und liegt deshalb flach wie jeder andere Skill. Stand:
+`f9a8a04` (`main`, LottieFiles/motion-design-skill).
+
+`iart-ai/motion-skills` ist dagegen **kein** Skill-Repo, sondern der Katalog über 19 Pack-Repos —
+der Klon enthält keinen `SKILL.md`. Übernommen sind alle 19 Packs, je Pack als eigener Ordner
+mit `skills/<name>/`; die 55 Einzelfähigkeiten liegen als Junctions im Benutzer-Scope. Eine
+Fassung wurde ausgelassen (`tiktok-video-skills/skills/lower-thirds`, doppelter Name), Gründe
+und Nachrüstweg stehen in [`iart-motion-skills/VENDOR.md`](iart-motion-skills/VENDOR.md).
+
+### Engineering-Abläufe (58)
+
+| Sammlung | Herkunft | Lizenz | Umfang |
+|---|---|---|---|
+| `pstack/` | cursor/plugins → `pstack` (Lauren Tan) | MIT | 58 Fähigkeiten + 3 Automatisierungs-Skills, 2 Agenten, 10 Kapitel Doku |
+
+`pstack` ist das Original, nicht ein Fork: Lauren Tan (poteto) pflegt es im offiziellen
+Plugin-Repository von Cursor. Von dort stammt es, nicht aus einem der zahlreichen Nachbauten
+(`pstack-claude`, `open-pstack`, `pstack-codex` …).
+
+Der Baum bleibt wie im Upstream (`skills/`, `agents/`, `docs/`, `automations/`); geladen wird
+jede Fähigkeit einzeln über eine Junction im Benutzer-Scope. **57 der 58** Fähigkeiten tragen
+`disable-model-invocation: true` — der Kern kennt den Schlüssel und übernimmt ihn, sie sind
+also nur menschlich aufrufbar; nur `setup-pstack` darf das Modell vorschlagen.
+
+Zwei Namen kollidieren mit dem Projekt-Scope: `tdd` und `teach` liegen bereits aus
+`mattpocock/skills` vor und gewinnen dort über den Rang. Die pstack-Fassung ist **in diesem
+Repository** damit nicht erreichbar, außerhalb schon. Herkunft, Commit, Aktualisierungsweg und
+die Cursor-Abhängigkeiten (Task, AskQuestion, `~/.cursor/rules/pstack-models.mdc`) stehen in
+[`pstack/VENDOR.md`](pstack/VENDOR.md).
+
+
 
 `units/design-md/` — **84 `DESIGN.md`-Dateien** aus `VoltAgent/awesome-design-md` (MIT), plus
 Index. Sie sind **kein Skill** (keine `SKILL.md`-Struktur), sondern Nachschlagewerk für

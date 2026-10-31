@@ -1,0 +1,1632 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-27T11:01:48Z",
+  "total": 307,
+  "sources": {
+    "flach": 96,
+    "awesome-gamedev-agent-skills": 77,
+    "iart-motion-skills": 55,
+    "pstack": 61,
+    "ui-skills": 9,
+    "brag": 2,
+    "ui-motion-picks": 6,
+    "prompt-engineering-skill": 1
+  },
+  "collections": [
+    {
+      "name": "flach",
+      "count": 96,
+      "aliases": [
+        "eigene",
+        "lokal",
+        "local"
+      ]
+    },
+    {
+      "name": "awesome-gamedev-agent-skills",
+      "count": 77,
+      "aliases": [
+        "gamedev",
+        "game-dev",
+        "awesome-gamedev",
+        "games"
+      ]
+    },
+    {
+      "name": "iart-motion-skills",
+      "count": 55,
+      "aliases": [
+        "iart",
+        "motion-skills",
+        "motion"
+      ]
+    },
+    {
+      "name": "pstack",
+      "count": 61,
+      "aliases": [
+        "lauren-tan",
+        "laurentan",
+        "cursor-plugin"
+      ]
+    },
+    {
+      "name": "ui-skills",
+      "count": 9,
+      "aliases": [
+        "ibelick",
+        "uiskills",
+        "ui-skills.com"
+      ]
+    },
+    {
+      "name": "brag",
+      "count": 2,
+      "aliases": [
+        "latent-spaces",
+        "launch-video",
+        "launchfilm",
+        "hyperframes"
+      ]
+    },
+    {
+      "name": "ui-motion-picks",
+      "count": 6,
+      "aliases": [
+        "emilkowalski",
+        "emil",
+        "transitions-dev",
+        "userinterface-wiki",
+        "raphaelsalaja",
+        "jakubantalik",
+        "motion"
+      ]
+    },
+    {
+      "name": "prompt-engineering-skill",
+      "count": 1,
+      "aliases": [
+        "prompt-engineering",
+        "prompting",
+        "ph-alves"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "academic-paper",
+      "source": "flach",
+      "path": "units/skills/academic-paper"
+    },
+    {
+      "name": "academic-paper-reviewer",
+      "source": "flach",
+      "path": "units/skills/academic-paper-reviewer"
+    },
+    {
+      "name": "academic-pipeline",
+      "source": "flach",
+      "path": "units/skills/academic-pipeline"
+    },
+    {
+      "name": "agent-eval",
+      "source": "flach",
+      "path": "units/skills/agent-eval"
+    },
+    {
+      "name": "agent-reach",
+      "source": "flach",
+      "path": "units/skills/agent-reach"
+    },
+    {
+      "name": "analyzing-sbom-for-supply-chain-vulnerabilities",
+      "source": "flach",
+      "path": "units/skills/analyzing-sbom-for-supply-chain-vulnerabilities"
+    },
+    {
+      "name": "analyzing-supply-chain-malware-artifacts",
+      "source": "flach",
+      "path": "units/skills/analyzing-supply-chain-malware-artifacts"
+    },
+    {
+      "name": "architecture-decision-records",
+      "source": "flach",
+      "path": "units/skills/architecture-decision-records"
+    },
+    {
+      "name": "building-detection-rules-with-sigma",
+      "source": "flach",
+      "path": "units/skills/building-detection-rules-with-sigma"
+    },
+    {
+      "name": "citation-management",
+      "source": "flach",
+      "path": "units/skills/citation-management"
+    },
+    {
+      "name": "deep-research",
+      "source": "flach",
+      "path": "units/skills/deep-research"
+    },
+    {
+      "name": "diagram-design",
+      "source": "flach",
+      "path": "units/skills/diagram-design"
+    },
+    {
+      "name": "eval-harness",
+      "source": "flach",
+      "path": "units/skills/eval-harness"
+    },
+    {
+      "name": "literature-review",
+      "source": "flach",
+      "path": "units/skills/literature-review"
+    },
+    {
+      "name": "market-research-reports",
+      "source": "flach",
+      "path": "units/skills/market-research-reports"
+    },
+    {
+      "name": "motion-design",
+      "source": "flach",
+      "path": "units/skills/motion-design"
+    },
+    {
+      "name": "offensive-active-directory",
+      "source": "flach",
+      "path": "units/skills/offensive-active-directory"
+    },
+    {
+      "name": "offensive-advanced-redteam",
+      "source": "flach",
+      "path": "units/skills/offensive-advanced-redteam"
+    },
+    {
+      "name": "offensive-ai-security",
+      "source": "flach",
+      "path": "units/skills/offensive-ai-security"
+    },
+    {
+      "name": "offensive-anti-forensics",
+      "source": "flach",
+      "path": "units/skills/offensive-anti-forensics"
+    },
+    {
+      "name": "offensive-api-abuse",
+      "source": "flach",
+      "path": "units/skills/offensive-api-abuse"
+    },
+    {
+      "name": "offensive-api-security",
+      "source": "flach",
+      "path": "units/skills/offensive-api-security"
+    },
+    {
+      "name": "offensive-basic-exploitation",
+      "source": "flach",
+      "path": "units/skills/offensive-basic-exploitation"
+    },
+    {
+      "name": "offensive-bluetooth-ble",
+      "source": "flach",
+      "path": "units/skills/offensive-bluetooth-ble"
+    },
+    {
+      "name": "offensive-bluetooth-classic",
+      "source": "flach",
+      "path": "units/skills/offensive-bluetooth-classic"
+    },
+    {
+      "name": "offensive-bug-identification",
+      "source": "flach",
+      "path": "units/skills/offensive-bug-identification"
+    },
+    {
+      "name": "offensive-business-logic",
+      "source": "flach",
+      "path": "units/skills/offensive-business-logic"
+    },
+    {
+      "name": "offensive-c2-frameworks",
+      "source": "flach",
+      "path": "units/skills/offensive-c2-frameworks"
+    },
+    {
+      "name": "offensive-cicd-pipeline",
+      "source": "flach",
+      "path": "units/skills/offensive-cicd-pipeline"
+    },
+    {
+      "name": "offensive-cicd-secrets",
+      "source": "flach",
+      "path": "units/skills/offensive-cicd-secrets"
+    },
+    {
+      "name": "offensive-cloud",
+      "source": "flach",
+      "path": "units/skills/offensive-cloud"
+    },
+    {
+      "name": "offensive-container-escape",
+      "source": "flach",
+      "path": "units/skills/offensive-container-escape"
+    },
+    {
+      "name": "offensive-crash-analysis",
+      "source": "flach",
+      "path": "units/skills/offensive-crash-analysis"
+    },
+    {
+      "name": "offensive-crypto-attacks",
+      "source": "flach",
+      "path": "units/skills/offensive-crypto-attacks"
+    },
+    {
+      "name": "offensive-data-exfiltration",
+      "source": "flach",
+      "path": "units/skills/offensive-data-exfiltration"
+    },
+    {
+      "name": "offensive-deauth-disassoc",
+      "source": "flach",
+      "path": "units/skills/offensive-deauth-disassoc"
+    },
+    {
+      "name": "offensive-dependency-confusion",
+      "source": "flach",
+      "path": "units/skills/offensive-dependency-confusion"
+    },
+    {
+      "name": "offensive-deserialization",
+      "source": "flach",
+      "path": "units/skills/offensive-deserialization"
+    },
+    {
+      "name": "offensive-edr-evasion",
+      "source": "flach",
+      "path": "units/skills/offensive-edr-evasion"
+    },
+    {
+      "name": "offensive-evil-twin",
+      "source": "flach",
+      "path": "units/skills/offensive-evil-twin"
+    },
+    {
+      "name": "offensive-exploit-dev-course",
+      "source": "flach",
+      "path": "units/skills/offensive-exploit-dev-course"
+    },
+    {
+      "name": "offensive-exploit-development",
+      "source": "flach",
+      "path": "units/skills/offensive-exploit-development"
+    },
+    {
+      "name": "offensive-fast-checking",
+      "source": "flach",
+      "path": "units/skills/offensive-fast-checking"
+    },
+    {
+      "name": "offensive-fuzzing",
+      "source": "flach",
+      "path": "units/skills/offensive-fuzzing"
+    },
+    {
+      "name": "offensive-fuzzing-course",
+      "source": "flach",
+      "path": "units/skills/offensive-fuzzing-course"
+    },
+    {
+      "name": "offensive-graphql",
+      "source": "flach",
+      "path": "units/skills/offensive-graphql"
+    },
+    {
+      "name": "offensive-idor",
+      "source": "flach",
+      "path": "units/skills/offensive-idor"
+    },
+    {
+      "name": "offensive-initial-access",
+      "source": "flach",
+      "path": "units/skills/offensive-initial-access"
+    },
+    {
+      "name": "offensive-iot",
+      "source": "flach",
+      "path": "units/skills/offensive-iot"
+    },
+    {
+      "name": "offensive-jwt",
+      "source": "flach",
+      "path": "units/skills/offensive-jwt"
+    },
+    {
+      "name": "offensive-k8s-attacks",
+      "source": "flach",
+      "path": "units/skills/offensive-k8s-attacks"
+    },
+    {
+      "name": "offensive-keylogger-arch",
+      "source": "flach",
+      "path": "units/skills/offensive-keylogger-arch"
+    },
+    {
+      "name": "offensive-krack-fragattacks",
+      "source": "flach",
+      "path": "units/skills/offensive-krack-fragattacks"
+    },
+    {
+      "name": "offensive-lateral-movement",
+      "source": "flach",
+      "path": "units/skills/offensive-lateral-movement"
+    },
+    {
+      "name": "offensive-linux-privesc",
+      "source": "flach",
+      "path": "units/skills/offensive-linux-privesc"
+    },
+    {
+      "name": "offensive-lorawan-sub-ghz",
+      "source": "flach",
+      "path": "units/skills/offensive-lorawan-sub-ghz"
+    },
+    {
+      "name": "offensive-mitigations",
+      "source": "flach",
+      "path": "units/skills/offensive-mitigations"
+    },
+    {
+      "name": "offensive-mobile",
+      "source": "flach",
+      "path": "units/skills/offensive-mobile"
+    },
+    {
+      "name": "offensive-netexec",
+      "source": "flach",
+      "path": "units/skills/offensive-netexec"
+    },
+    {
+      "name": "offensive-network-attacks",
+      "source": "flach",
+      "path": "units/skills/offensive-network-attacks"
+    },
+    {
+      "name": "offensive-oauth",
+      "source": "flach",
+      "path": "units/skills/offensive-oauth"
+    },
+    {
+      "name": "offensive-open-redirect",
+      "source": "flach",
+      "path": "units/skills/offensive-open-redirect"
+    },
+    {
+      "name": "offensive-osint",
+      "source": "flach",
+      "path": "units/skills/offensive-osint"
+    },
+    {
+      "name": "offensive-osint-methodology",
+      "source": "flach",
+      "path": "units/skills/offensive-osint-methodology"
+    },
+    {
+      "name": "offensive-parameter-pollution",
+      "source": "flach",
+      "path": "units/skills/offensive-parameter-pollution"
+    },
+    {
+      "name": "offensive-persistence",
+      "source": "flach",
+      "path": "units/skills/offensive-persistence"
+    },
+    {
+      "name": "offensive-phishing",
+      "source": "flach",
+      "path": "units/skills/offensive-phishing"
+    },
+    {
+      "name": "offensive-race-condition",
+      "source": "flach",
+      "path": "units/skills/offensive-race-condition"
+    },
+    {
+      "name": "offensive-reporting",
+      "source": "flach",
+      "path": "units/skills/offensive-reporting"
+    },
+    {
+      "name": "offensive-request-smuggling",
+      "source": "flach",
+      "path": "units/skills/offensive-request-smuggling"
+    },
+    {
+      "name": "offensive-shellcode",
+      "source": "flach",
+      "path": "units/skills/offensive-shellcode"
+    },
+    {
+      "name": "offensive-social-engineering",
+      "source": "flach",
+      "path": "units/skills/offensive-social-engineering"
+    },
+    {
+      "name": "offensive-ssrf",
+      "source": "flach",
+      "path": "units/skills/offensive-ssrf"
+    },
+    {
+      "name": "offensive-ssti",
+      "source": "flach",
+      "path": "units/skills/offensive-ssti"
+    },
+    {
+      "name": "offensive-supply-chain",
+      "source": "flach",
+      "path": "units/skills/offensive-supply-chain"
+    },
+    {
+      "name": "offensive-tls-attacks",
+      "source": "flach",
+      "path": "units/skills/offensive-tls-attacks"
+    },
+    {
+      "name": "offensive-toctou",
+      "source": "flach",
+      "path": "units/skills/offensive-toctou"
+    },
+    {
+      "name": "offensive-vuln-classes",
+      "source": "flach",
+      "path": "units/skills/offensive-vuln-classes"
+    },
+    {
+      "name": "offensive-waf-bypass",
+      "source": "flach",
+      "path": "units/skills/offensive-waf-bypass"
+    },
+    {
+      "name": "offensive-wifi",
+      "source": "flach",
+      "path": "units/skills/offensive-wifi"
+    },
+    {
+      "name": "offensive-wifi-recon",
+      "source": "flach",
+      "path": "units/skills/offensive-wifi-recon"
+    },
+    {
+      "name": "offensive-windows-boundaries",
+      "source": "flach",
+      "path": "units/skills/offensive-windows-boundaries"
+    },
+    {
+      "name": "offensive-windows-mitigations",
+      "source": "flach",
+      "path": "units/skills/offensive-windows-mitigations"
+    },
+    {
+      "name": "offensive-windows-privesc",
+      "source": "flach",
+      "path": "units/skills/offensive-windows-privesc"
+    },
+    {
+      "name": "offensive-wpa-enterprise",
+      "source": "flach",
+      "path": "units/skills/offensive-wpa-enterprise"
+    },
+    {
+      "name": "offensive-wpa2-psk",
+      "source": "flach",
+      "path": "units/skills/offensive-wpa2-psk"
+    },
+    {
+      "name": "offensive-wpa3-sae",
+      "source": "flach",
+      "path": "units/skills/offensive-wpa3-sae"
+    },
+    {
+      "name": "offensive-wps",
+      "source": "flach",
+      "path": "units/skills/offensive-wps"
+    },
+    {
+      "name": "offensive-xss",
+      "source": "flach",
+      "path": "units/skills/offensive-xss"
+    },
+    {
+      "name": "offensive-xxe",
+      "source": "flach",
+      "path": "units/skills/offensive-xxe"
+    },
+    {
+      "name": "offensive-z-wave",
+      "source": "flach",
+      "path": "units/skills/offensive-z-wave"
+    },
+    {
+      "name": "offensive-zigbee-thread-matter",
+      "source": "flach",
+      "path": "units/skills/offensive-zigbee-thread-matter"
+    },
+    {
+      "name": "paper-lookup",
+      "source": "flach",
+      "path": "units/skills/paper-lookup"
+    },
+    {
+      "name": "parallel-web",
+      "source": "flach",
+      "path": "units/skills/parallel-web"
+    },
+    {
+      "name": "peer-review",
+      "source": "flach",
+      "path": "units/skills/peer-review"
+    },
+    {
+      "name": "sr-screener",
+      "source": "flach",
+      "path": "units/skills/sr-screener"
+    },
+    {
+      "name": "router",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/router"
+    },
+    {
+      "name": "ai-behavior-trees-utility-ai",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/ai-behavior-trees-utility-ai"
+    },
+    {
+      "name": "audio-design",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/audio-design"
+    },
+    {
+      "name": "camera-systems",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/camera-systems"
+    },
+    {
+      "name": "create-game-assets",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/create-game-assets"
+    },
+    {
+      "name": "dialogue-systems",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/dialogue-systems"
+    },
+    {
+      "name": "game-ai",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/game-ai"
+    },
+    {
+      "name": "game-feel",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/game-feel"
+    },
+    {
+      "name": "game-ui-ux",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/game-ui-ux"
+    },
+    {
+      "name": "input-systems",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/input-systems"
+    },
+    {
+      "name": "level-design",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/level-design"
+    },
+    {
+      "name": "performance-optimization",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/performance-optimization"
+    },
+    {
+      "name": "physics-tuning",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/physics-tuning"
+    },
+    {
+      "name": "procedural-gen",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/procedural-gen"
+    },
+    {
+      "name": "save-systems",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/save-systems"
+    },
+    {
+      "name": "shader-programming",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/disciplines/shader-programming"
+    },
+    {
+      "name": "ebitengine-game",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/ebitengine/ebitengine-game"
+    },
+    {
+      "name": "card-game",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/card-game"
+    },
+    {
+      "name": "fps-shooter",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/fps-shooter"
+    },
+    {
+      "name": "platformer",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/platformer"
+    },
+    {
+      "name": "puzzle",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/puzzle"
+    },
+    {
+      "name": "roguelike",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/roguelike"
+    },
+    {
+      "name": "rpg",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/rpg"
+    },
+    {
+      "name": "survival-crafting",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/survival-crafting"
+    },
+    {
+      "name": "tower-defense",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/tower-defense"
+    },
+    {
+      "name": "visual-novel",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/genres/visual-novel"
+    },
+    {
+      "name": "godot-2d-movement",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-2d-movement"
+    },
+    {
+      "name": "godot-3d-essentials",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-3d-essentials"
+    },
+    {
+      "name": "godot-animation",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-animation"
+    },
+    {
+      "name": "godot-audio",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-audio"
+    },
+    {
+      "name": "godot-csharp",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-csharp"
+    },
+    {
+      "name": "godot-export",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-export"
+    },
+    {
+      "name": "godot-gdscript",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-gdscript"
+    },
+    {
+      "name": "godot-gdscript-headless-testing",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-gdscript-headless-testing"
+    },
+    {
+      "name": "godot-multiplayer",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-multiplayer"
+    },
+    {
+      "name": "godot-nodes-scenes",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-nodes-scenes"
+    },
+    {
+      "name": "godot-physics",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-physics"
+    },
+    {
+      "name": "godot-resources",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-resources"
+    },
+    {
+      "name": "godot-shaders",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-shaders"
+    },
+    {
+      "name": "godot-signals-groups",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-signals-groups"
+    },
+    {
+      "name": "godot-tilemap",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-tilemap"
+    },
+    {
+      "name": "godot-ui-control",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/godot/godot-ui-control"
+    },
+    {
+      "name": "bevy-ecs",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/bevy-ecs"
+    },
+    {
+      "name": "defold-core",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/defold-core"
+    },
+    {
+      "name": "love2d-core",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/love2d-core"
+    },
+    {
+      "name": "pygame-core",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/pygame-core"
+    },
+    {
+      "name": "roblox-characters",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-characters"
+    },
+    {
+      "name": "roblox-datastores",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-datastores"
+    },
+    {
+      "name": "roblox-luau",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-luau"
+    },
+    {
+      "name": "roblox-networking",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-networking"
+    },
+    {
+      "name": "roblox-physics",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-physics"
+    },
+    {
+      "name": "roblox-studio-workflow",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-studio-workflow"
+    },
+    {
+      "name": "roblox-ui",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/other-engines/roblox-ui"
+    },
+    {
+      "name": "unity-animation",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unity/unity-animation"
+    },
+    {
+      "name": "unity-build-pipeline",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unity/unity-build-pipeline"
+    },
+    {
+      "name": "unity-csharp-scripting",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unity/unity-csharp-scripting"
+    },
+    {
+      "name": "unity-input-system",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unity/unity-input-system"
+    },
+    {
+      "name": "unity-navmesh",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unity/unity-navmesh"
+    },
+    {
+      "name": "unity-physics",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unity/unity-physics"
+    },
+    {
+      "name": "unity-scriptableobjects",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unity/unity-scriptableobjects"
+    },
+    {
+      "name": "unity-tilemap-2d",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unity/unity-tilemap-2d"
+    },
+    {
+      "name": "unreal-behavior-trees",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unreal/unreal-behavior-trees"
+    },
+    {
+      "name": "unreal-blueprints",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unreal/unreal-blueprints"
+    },
+    {
+      "name": "unreal-cpp-gameplay",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unreal/unreal-cpp-gameplay"
+    },
+    {
+      "name": "unreal-enhanced-input",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unreal/unreal-enhanced-input"
+    },
+    {
+      "name": "unreal-niagara",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unreal/unreal-niagara"
+    },
+    {
+      "name": "unreal-packaging",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/unreal/unreal-packaging"
+    },
+    {
+      "name": "phaser-arcade-physics",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/web-engines/phaser-arcade-physics"
+    },
+    {
+      "name": "phaser-core",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/web-engines/phaser-core"
+    },
+    {
+      "name": "pixijs-rendering",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/web-engines/pixijs-rendering"
+    },
+    {
+      "name": "threejs-gltf-loading",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/web-engines/threejs-gltf-loading"
+    },
+    {
+      "name": "threejs-materials-lighting",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/web-engines/threejs-materials-lighting"
+    },
+    {
+      "name": "threejs-scene-setup",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/web-engines/threejs-scene-setup"
+    },
+    {
+      "name": "game-jam",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/workflows/game-jam"
+    },
+    {
+      "name": "itch-publish",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/workflows/itch-publish"
+    },
+    {
+      "name": "prototype-fast",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/workflows/prototype-fast"
+    },
+    {
+      "name": "steam-publish",
+      "source": "awesome-gamedev-agent-skills",
+      "path": "units/skills/awesome-gamedev-agent-skills/skills/workflows/steam-publish"
+    },
+    {
+      "name": "ad-creative-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/ad-video-skills/skills/ad-creative-video"
+    },
+    {
+      "name": "launch-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/ad-video-skills/skills/launch-video"
+    },
+    {
+      "name": "testimonial-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/ad-video-skills/skills/testimonial-video"
+    },
+    {
+      "name": "talking-head-b-roll",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/b-roll-skills/skills/talking-head-b-roll"
+    },
+    {
+      "name": "animated-infographic",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/data-animation-skills/skills/animated-infographic"
+    },
+    {
+      "name": "chart-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/data-animation-skills/skills/chart-animation"
+    },
+    {
+      "name": "presentation-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/data-animation-skills/skills/presentation-video"
+    },
+    {
+      "name": "photo-slideshow",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/ecommerce-video-skills/skills/photo-slideshow"
+    },
+    {
+      "name": "product-demo-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/ecommerce-video-skills/skills/product-demo-video"
+    },
+    {
+      "name": "promo-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/ecommerce-video-skills/skills/promo-video"
+    },
+    {
+      "name": "diagram-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/explainer-video-skills/skills/diagram-animation"
+    },
+    {
+      "name": "explainer-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/explainer-video-skills/skills/explainer-video"
+    },
+    {
+      "name": "isometric-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/explainer-video-skills/skills/isometric-animation"
+    },
+    {
+      "name": "whiteboard-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/explainer-video-skills/skills/whiteboard-animation"
+    },
+    {
+      "name": "wrapped-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/explainer-video-skills/skills/wrapped-video"
+    },
+    {
+      "name": "brand-motion-guidelines",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/freelance-motion-skills/skills/brand-motion-guidelines"
+    },
+    {
+      "name": "client-revisions",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/freelance-motion-skills/skills/client-revisions"
+    },
+    {
+      "name": "creative-brief",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/freelance-motion-skills/skills/creative-brief"
+    },
+    {
+      "name": "motion-pricing",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/freelance-motion-skills/skills/motion-pricing"
+    },
+    {
+      "name": "video-delivery-specs",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/freelance-motion-skills/skills/video-delivery-specs"
+    },
+    {
+      "name": "generative-illustration",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/generative-illustration-skills/skills/generative-illustration"
+    },
+    {
+      "name": "javascript-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/javascript-animation-skills/skills/javascript-animation"
+    },
+    {
+      "name": "soundtrack",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/javascript-animation-skills/skills/soundtrack"
+    },
+    {
+      "name": "kinetic-typography",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/kinetic-typography-skills/skills/kinetic-typography"
+    },
+    {
+      "name": "lower-thirds",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/lower-thirds-skills/skills/lower-thirds"
+    },
+    {
+      "name": "manim",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/manim-skills/skills/manim"
+    },
+    {
+      "name": "map-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/map-animation-skills/skills/map-animation"
+    },
+    {
+      "name": "after-effects",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/after-effects"
+    },
+    {
+      "name": "animation-principles",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/animation-principles"
+    },
+    {
+      "name": "beat-sync-editing",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/beat-sync-editing"
+    },
+    {
+      "name": "color-motion",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/color-motion"
+    },
+    {
+      "name": "logo-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/logo-animation"
+    },
+    {
+      "name": "motion-art-direction",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/motion-art-direction"
+    },
+    {
+      "name": "motion-background",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/motion-background"
+    },
+    {
+      "name": "remotion-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/remotion-video"
+    },
+    {
+      "name": "shot-composition",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/motion-design-skills/skills/shot-composition"
+    },
+    {
+      "name": "talking-head",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/talking-head-skills/skills/talking-head"
+    },
+    {
+      "name": "text-message-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/text-message-video-skills/skills/text-message-animation"
+    },
+    {
+      "name": "caption-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/tiktok-video-skills/skills/caption-animation"
+    },
+    {
+      "name": "countdown-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/tiktok-video-skills/skills/countdown-video"
+    },
+    {
+      "name": "short-form-video",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/tiktok-video-skills/skills/short-form-video"
+    },
+    {
+      "name": "60fps-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/60fps-animation"
+    },
+    {
+      "name": "accessible-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/accessible-animation"
+    },
+    {
+      "name": "ascii-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/ascii-animation"
+    },
+    {
+      "name": "glassmorphism",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/glassmorphism"
+    },
+    {
+      "name": "gsap-web",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/gsap-web"
+    },
+    {
+      "name": "lottie-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/lottie-animation"
+    },
+    {
+      "name": "micro-interaction",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/micro-interaction"
+    },
+    {
+      "name": "page-transition-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/page-transition-animation"
+    },
+    {
+      "name": "svg-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/web-animation-skills/skills/svg-animation"
+    },
+    {
+      "name": "particle-system",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/webgl-animation-skills/skills/particle-system"
+    },
+    {
+      "name": "shader-glsl",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/webgl-animation-skills/skills/shader-glsl"
+    },
+    {
+      "name": "threejs-animation",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/webgl-animation-skills/skills/threejs-animation"
+    },
+    {
+      "name": "audiogram",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/youtube-video-skills/skills/audiogram"
+    },
+    {
+      "name": "youtube-intro-outro",
+      "source": "iart-motion-skills",
+      "path": "units/skills/iart-motion-skills/youtube-video-skills/skills/youtube-intro-outro"
+    },
+    {
+      "name": "reproduce-and-fix-issues",
+      "source": "pstack",
+      "path": "units/skills/pstack/automations/benny/skills/reproduce-and-fix-issues"
+    },
+    {
+      "name": "setup-benny",
+      "source": "pstack",
+      "path": "units/skills/pstack/automations/benny/skills/setup-benny"
+    },
+    {
+      "name": "triage-issue-reports",
+      "source": "pstack",
+      "path": "units/skills/pstack/automations/benny/skills/triage-issue-reports"
+    },
+    {
+      "name": "architect",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/architect"
+    },
+    {
+      "name": "arena",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/arena"
+    },
+    {
+      "name": "automate-me",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/automate-me"
+    },
+    {
+      "name": "benchmark-checklist",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/benchmark-checklist"
+    },
+    {
+      "name": "blast-radius",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/blast-radius"
+    },
+    {
+      "name": "bro",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/bro"
+    },
+    {
+      "name": "correct",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/correct"
+    },
+    {
+      "name": "create-formal-verification-skill",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/create-formal-verification-skill"
+    },
+    {
+      "name": "create-verification-skill",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/create-verification-skill"
+    },
+    {
+      "name": "figure-it-out",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/figure-it-out"
+    },
+    {
+      "name": "how",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/how"
+    },
+    {
+      "name": "in-your-own-words",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/in-your-own-words"
+    },
+    {
+      "name": "interrogate",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/interrogate"
+    },
+    {
+      "name": "ketchup",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/ketchup"
+    },
+    {
+      "name": "ketchup-video",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/ketchup-video"
+    },
+    {
+      "name": "maintain-formal-verification-skill",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/maintain-formal-verification-skill"
+    },
+    {
+      "name": "maintain-verification-skill",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/maintain-verification-skill"
+    },
+    {
+      "name": "make-bot-ui",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/make-bot-ui"
+    },
+    {
+      "name": "no-comments",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/no-comments"
+    },
+    {
+      "name": "poteto-help",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/poteto-help"
+    },
+    {
+      "name": "poteto-mode",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/poteto-mode"
+    },
+    {
+      "name": "principle-attack-the-premise",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-attack-the-premise"
+    },
+    {
+      "name": "principle-boundary-discipline",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-boundary-discipline"
+    },
+    {
+      "name": "principle-build-the-lever",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-build-the-lever"
+    },
+    {
+      "name": "principle-encode-lessons-in-structure",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-encode-lessons-in-structure"
+    },
+    {
+      "name": "principle-exhaust-the-design-space",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-exhaust-the-design-space"
+    },
+    {
+      "name": "principle-experience-first",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-experience-first"
+    },
+    {
+      "name": "principle-explain-the-number",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-explain-the-number"
+    },
+    {
+      "name": "principle-fix-root-causes",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-fix-root-causes"
+    },
+    {
+      "name": "principle-foundational-thinking",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-foundational-thinking"
+    },
+    {
+      "name": "principle-guard-the-context-window",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-guard-the-context-window"
+    },
+    {
+      "name": "principle-laziness-protocol",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-laziness-protocol"
+    },
+    {
+      "name": "principle-make-operations-idempotent",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-make-operations-idempotent"
+    },
+    {
+      "name": "principle-migrate-callers-then-delete-legacy-apis",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-migrate-callers-then-delete-legacy-apis"
+    },
+    {
+      "name": "principle-minimize-reader-load",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-minimize-reader-load"
+    },
+    {
+      "name": "principle-model-the-domain",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-model-the-domain"
+    },
+    {
+      "name": "principle-never-block-on-the-human",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-never-block-on-the-human"
+    },
+    {
+      "name": "principle-outcome-oriented-execution",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-outcome-oriented-execution"
+    },
+    {
+      "name": "principle-prove-it-works",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-prove-it-works"
+    },
+    {
+      "name": "principle-redesign-from-first-principles",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-redesign-from-first-principles"
+    },
+    {
+      "name": "principle-separate-before-serializing-shared-state",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-separate-before-serializing-shared-state"
+    },
+    {
+      "name": "principle-sequence-verifiable-units",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-sequence-verifiable-units"
+    },
+    {
+      "name": "principle-subtract-before-you-add",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-subtract-before-you-add"
+    },
+    {
+      "name": "principle-test-behavior-not-implementation",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-test-behavior-not-implementation"
+    },
+    {
+      "name": "principle-type-system-discipline",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/principle-type-system-discipline"
+    },
+    {
+      "name": "recall",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/recall"
+    },
+    {
+      "name": "reflect",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/reflect"
+    },
+    {
+      "name": "setup-pstack",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/setup-pstack"
+    },
+    {
+      "name": "sharpen",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/sharpen"
+    },
+    {
+      "name": "show-me-your-work",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/show-me-your-work"
+    },
+    {
+      "name": "statechart",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/statechart"
+    },
+    {
+      "name": "swarm",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/swarm"
+    },
+    {
+      "name": "tdd",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/tdd"
+    },
+    {
+      "name": "teach",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/teach"
+    },
+    {
+      "name": "technical-writing",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/technical-writing"
+    },
+    {
+      "name": "typescript-best-practices",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/typescript-best-practices"
+    },
+    {
+      "name": "unslop",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/unslop"
+    },
+    {
+      "name": "why",
+      "source": "pstack",
+      "path": "units/skills/pstack/skills/why"
+    },
+    {
+      "name": "baseline-ui",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/baseline-ui"
+    },
+    {
+      "name": "component-canvas",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/component-canvas"
+    },
+    {
+      "name": "create-canvas",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/create-canvas"
+    },
+    {
+      "name": "create-design-md",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/create-design-md"
+    },
+    {
+      "name": "fixing-accessibility",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/fixing-accessibility"
+    },
+    {
+      "name": "fixing-metadata",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/fixing-metadata"
+    },
+    {
+      "name": "fixing-motion-performance",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/fixing-motion-performance"
+    },
+    {
+      "name": "improve-ui",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/improve-ui"
+    },
+    {
+      "name": "ui-skills-root",
+      "source": "ui-skills",
+      "path": "units/skills/ui-skills/skills/ui-skills-root"
+    },
+    {
+      "name": "brag",
+      "source": "brag",
+      "path": "units/skills/brag/skills/brag"
+    },
+    {
+      "name": "brag-slim",
+      "source": "brag",
+      "path": "units/skills/brag/skills/brag-slim"
+    },
+    {
+      "name": "animate",
+      "source": "ui-motion-picks",
+      "path": "units/skills/ui-motion-picks/skills/animate"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "source": "ui-motion-picks",
+      "path": "units/skills/ui-motion-picks/skills/find-animation-opportunities"
+    },
+    {
+      "name": "improve-animations",
+      "source": "ui-motion-picks",
+      "path": "units/skills/ui-motion-picks/skills/improve-animations"
+    },
+    {
+      "name": "review-animations",
+      "source": "ui-motion-picks",
+      "path": "units/skills/ui-motion-picks/skills/review-animations"
+    },
+    {
+      "name": "transitions-dev",
+      "source": "ui-motion-picks",
+      "path": "units/skills/ui-motion-picks/skills/transitions-dev"
+    },
+    {
+      "name": "userinterface-wiki",
+      "source": "ui-motion-picks",
+      "path": "units/skills/ui-motion-picks/skills/userinterface-wiki"
+    },
+    {
+      "name": "prompt-engineering",
+      "source": "prompt-engineering-skill",
+      "path": "units/skills/prompt-engineering-skill/skills/prompt-engineering"
+    }
+  ]
+}
