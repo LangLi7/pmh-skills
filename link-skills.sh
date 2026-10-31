@@ -1,19 +1,18 @@
 #!/bin/sh
 # =============================================================================
-# Prometheus Harness — Fähigkeiten in den Benutzer-Scope verknüpfen (POSIX sh)
+# Prometheus Harness: Fähigkeiten in den Benutzer-Scope verknüpfen (POSIX sh)
 # =============================================================================
 #
-# **Was dieses Skript tut.** Für jede Fähigkeit in diesem Verzeichnis legt es
-# einen symbolischen Verweis unter `~/.agents/skills` an. Es wird nichts kopiert:
-# der Inhalt bleibt an einem Ort, der Verweis ist die Verbindung.
+# Für jede Fähigkeit in diesem Verzeichnis legt das Skript einen symbolischen
+# Verweis unter `~/.agents/skills` an. Es wird nichts kopiert: der Inhalt bleibt
+# an einem Ort, der Verweis ist die Verbindung.
 #
-# **Warum es das PowerShell-Skript nicht ersetzt.** `link-skills.ps1` schreibt
-# zusätzlich `index.json` (die Gruppierung nach Sammlung für den Web-Client).
-# Dieses Skript verknüpft nur — dafür läuft es auf Linux und macOS, wo es kein
-# PowerShell gibt.
+# Das PowerShell-Skript schreibt zusätzlich `index.json`, die Gruppierung nach
+# Sammlung für den Web-Client. Dieses Skript verknüpft nur, dafür läuft es auf
+# Linux und macOS, wo es kein PowerShell gibt.
 #
-# **Wiederholbar.** Vorhandene Verweise werden übersprungen, nicht ersetzt.
-# Eine echte Datei gleichen Namens wird nicht angefasst.
+# Ein zweiter Lauf überspringt vorhandene Verweise. Eine echte Datei gleichen
+# Namens wird nicht angefasst.
 #
 # Aufruf:
 #     sh units/skills/link-skills.sh
@@ -28,7 +27,7 @@ pruefen=0
 [ "${1:-}" = '--pruefen' ] && pruefen=1
 
 # Sammlungen: ein Upstream-Baum mit mehreren Fähigkeiten darin. Nur diese werden
-# rekursiv durchsucht — ein fremder Baum, der hier nicht steht, bleibt unberührt.
+# rekursiv durchsucht. Ein fremder Baum, der hier nicht steht, bleibt unberührt.
 sammlungen='awesome-gamedev-agent-skills iart-motion-skills pstack ui-skills brag ui-motion-picks prompt-engineering-skill'
 
 angelegt=0
